@@ -1,6 +1,6 @@
 # Switch
 
-	This module provides a form element and widget for a visual on/off switch.
+This module provides a form element and widget for a visual on/off switch.
 
 ## Installation
 
@@ -9,20 +9,22 @@
 
 ## Configuration and Usage
 
-	There are two ways to use the widget:
+There are two ways to use the widget:
 
-	1. **Field UI**
-	A widget is provided for checkbox (boolean) fields. When creating a boolean field, select `switch` as the widget.
+1. **Field UI**
+A widget is provided for checkbox (boolean) fields. When creating a boolean
+field, select `switch` as the widget.
 
-  2. **Form API**
-	The module defines a new form element type `switch` - use as you would a checkbox.
+2. **Form API**
+The module defines a new form element type `switch` - use as you would a
+checkbox.
 
-	```
-	$form['example'] = array(
-	  '#type' => 'switch',
-	  '#title' => t('Example'),
-	);
-	```
+```
+$form['example'] = array(
+	'#type' => 'switch',
+	'#title' => t('Example'),
+);
+```
 
 ## Issues
 
