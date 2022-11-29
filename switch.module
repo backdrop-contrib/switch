@@ -125,8 +125,8 @@ function switch_element_info() {
 /**
  * Element value callback.
  */
-function switch_value_callback($element, $input = FALSE, &$form_state) {
-  if ($input !== FALSE) {
+function switch_value_callback($element, $input, &$form_state) {
+  if (empty($input) || $input !== FALSE) {
     if (empty($input)) {
       return 0;
     }
